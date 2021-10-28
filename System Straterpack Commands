@@ -1,0 +1,15 @@
+Scirpt Kali Ini Kayak Ya Bakalan Dikit Jadi Kalian
+Gak Repot Lagi Oke
+
+
+//Taruh Di Bawah CMD:tester
+CMD:claimhadiah
+{
+    SendClientMessage(playerid, -1, "Kamu Berhasil Mengambil Hadiah sebesar Rp.250.000");
+    {
+    if(GetPlayerMoneyEx, >= 25000)
+    }
+        GivePlayerMoneyEx(playerid, +250000)
+    {
+    return 1;
+}
