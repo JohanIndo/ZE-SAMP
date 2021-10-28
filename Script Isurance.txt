@@ -1,0 +1,42 @@
+////Taruh Di OnGameModeInit
+
+CreateDynamicPickup(id object, posisi kordinat);
+Create3DTextLebel, ("Kasih Nama\nKasih Nama");
+
+////Taruh Di Tempat Bawah CMD:tester
+CMD:claimisurance(playerid)
+{
+    SendClientMessage(playerid, -1, "Kamu berhasil membeli isurance sebesar Rp.25.000");
+    }
+    if(GetPlayerMoneyEx(playerid >= 25000)
+    {
+        GivePlayerMoneyEx(playerid, -25000)
+    }
+    return 1;
+}
+
+////Taruh Di Bawah CMD:gps
+CMD:listisurance(playerid, params[])
+{
+    Dialog
+    (
+        Playerid, DIALOG_ISURANCE, DIALOG_STYLE_LIST,
+       "Syarat Membeli Isurance"
+       "{FFFFFF}Untuk Membeli Isurance\n"\
+        "{FFFFFF}kamu harus menaati aturan ini\n"\
+        "{FFFFFF}1. Mempuyai Sim Kendaraan\n"\
+        "{FFFFFF}2. Mempuyai ktp\n"\
+        "{FFFFFF}3. Mempuyai kendaraan prinadi\n"\
+        "{FFFFFF}Ikuti Peraturan Yang Sudah di sediakan",
+        "Keluar", ""
+   );
+   return 1;
+}
+         
+
+
+Dont Forget Join Server Bangsa Kita Roleplay 
+And Share Server Agar Biar Rame Dan lancar Samp Ya
+#SUPPORTBKRP
+    
+      
